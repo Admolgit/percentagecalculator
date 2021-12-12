@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #012345;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+  width: 800px;
+  justify-content: space-around;
+  margin: auto;
+  background: white;
+  height: 100vh;
+}
+
+.content {
+  padding-top: 4rem;
+  padding-left: 3rem;
+  padding-bottom: 1rem;
+}
+
+.number-input,
+.input-percentage {
+  padding: 0.5rem;
+}
+
+.percentage-input button {
+  padding: 0.5rem;
+}
+
+.percentage .content2 {
+  padding-left: 3rem;
+  padding-bottom: 1rem;
+}
+
+.percentage-input {
+  padding-left: 3rem;
+}
+
+.percentage-input .btn:hover {
+  cursor: pointer;
+}
+
+input[type="number"] {
+  font-size: 20px;
+}
+
+hr {
+  margin-right: 3rem;
+}
+
+@media screen and (max-width: 800px) {
+  .container {
+    width: 500px;
+  }
+}
